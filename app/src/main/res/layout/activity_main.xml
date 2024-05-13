@@ -4,15 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#A38686"
+    android:backgroundTint="#000000"
+    tools:context=".MainActivity"><![CDATA[
+
+    "
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <TextView
+        android:layout_width="181dp"
+        android:layout_height="31dp"
+        android:text="!Bienvenido usuario Nuevo!"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#981010"
+        android:text="Ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="308dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imagen_de_whatsapp_2024_01_31_a_las_10_22_57_3e7024bf_removebg_prev" />
+
+    <EditText
+        android:id="@+id/Contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTint="#D5CCCC"
+        android:ems="10"
+        android:shadowColor="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#EDE8E8"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="497dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
