@@ -4,12 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    tools:context=".MainActivity4"
+    tools:layout_editor_absoluteX="7dp"
+    tools:layout_editor_absoluteY="-64dp">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DFC3C3"
+        android:text="Eliminar tarea"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="562dp" />
 
     <EditText
         android:id="@+id/editTextDate"
         android:layout_width="75dp"
         android:layout_height="16dp"
+        android:background="#F4EFBE"
         android:ems="10"
         android:inputType="date"
         tools:layout_editor_absoluteX="233dp"
@@ -51,25 +63,11 @@
         tools:layout_editor_absoluteX="152dp"
         tools:layout_editor_absoluteY="128dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="253dp"
-        android:layout_height="45dp"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="306dp">
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="hint"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="306dp" />
-
     <EditText
         android:id="@+id/editTextDate"
         android:layout_width="92dp"
         android:layout_height="18dp"
+        android:background="#F4EFBE"
         android:ems="10"
         android:inputType="date"
         tools:layout_editor_absoluteX="53dp"
@@ -82,5 +80,44 @@
         android:text="Fecha de inicio"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="137dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DFC3C3"
+        android:text="Cambiar color de tarea"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="269dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:rotation="-90"
+        app:srcCompat="@android:drawable/arrow_up_float"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="648dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
