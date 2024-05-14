@@ -40,14 +40,6 @@
         tools:layout_editor_absoluteX="89dp"
         tools:layout_editor_absoluteY="94dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="207dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
@@ -117,5 +109,13 @@
         android:text="Usuario:"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="168dp"
+        app:srcCompat="@drawable/_2808894"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="174dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
